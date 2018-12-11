@@ -1,0 +1,9 @@
+$(".spell1").click(function(){
+    $(".lightspell").toggle();
+});
+$(".spell2").click(function(){
+    $(".revealingspell").fadeToggle();
+});
+$(".spell3").click(function(){
+    $(".unlockingspell").slideToggle();
+});
